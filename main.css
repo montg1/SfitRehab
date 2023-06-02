@@ -1,25 +1,50 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  header {
-  
-    position: absolute;
-    width: 1920px;
-    height: 82px;
-    left: 0px;
-    top: 0px;
-    background: #078EBA;
-  
-  }
-  
-  body{
-    
+.PhoneLogo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 165px;
+  top: 21px;
+}
+
+.Phone {
+  /* PHONE : +66 (088) 766 8888 */
+
+  position: absolute;
+  width: 252px;
+  height: 30px;
+  left: 219px;
+  top: 26px;
+
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.Platform {
+  position: absolute;
+  width: 204px;
+  height: 48px;
+  left: 1551px;
+  top: 17px;
+}
+
+header {
+  position: absolute;
+  width: 1920px;
+  height: 217px;
+  left: 0px;
+  top: 0px;
+}
+
+body {
   position: relative;
   width: 1920px;
   height: 2225px;
-  
-  background: #FFFFFF;
-    
-  }
+
+  background: #fef1c3;
+}
