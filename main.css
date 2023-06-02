@@ -1,3 +1,61 @@
+.BannerTop {
+  position: absolute;
+  width: 1920px;
+  height: 82px;
+  left: 0px;
+  top: 0px;
+
+  /* Main */
+
+  background: #078eba;
+}
+
+.Menu {
+  position: absolute;
+  width: 1920px;
+  height: 135px;
+  left: 0px;
+  top: 82px;
+
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.SfitLogo {
+  position: absolute;
+  width: 142.2px;
+  height: 100px;
+  left: 165px;
+  top: 18px;
+}
+
+.main {
+  /* หน้าหลัก */
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  left: 827px;
+  top: 53px;
+  /* identical to box height */
+
+  color: #078eba;
+}
+
+.info {
+  /* เกี่ยวกับเรา */
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 937px;
+  top: 53px;
+
+  /* black-333 */
+
+  color: #333333;
+}
+
 .PhoneLogo {
   position: absolute;
   width: 40px;
@@ -44,7 +102,7 @@ header {
 body {
   position: relative;
   width: 1920px;
-  height: 2225px;
+  height: 7532px;
 
-  background: #fef1c3;
+  background: #ffffff;
 }
