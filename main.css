@@ -56,6 +56,56 @@
   color: #333333;
 }
 
+.packgage {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 168px;
+  height: 30px;
+  left: 1249px;
+  top: 53px;
+}
+
+.know {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1457px;
+  top: 53px;
+}
+
+.call {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1586px;
+  top: 53px;
+}
+
+.service {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1067px;
+  top: 53px;
+}
+
+.L {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1694px;
+  top: 53px;
+
+  color: #078eba;
+}
+
 .PhoneLogo {
   position: absolute;
   width: 40px;
