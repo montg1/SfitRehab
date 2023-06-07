@@ -1,179 +1,181 @@
 .BannerTop {
-    position: absolute;
-    width: 1920px;
-    height: 82px;
-    left: 0px;
-    top: 0px;
-  
-    /* Main */
-  
-    background: #078eba;
-  }
-  
-  .Menu {
-    position: absolute;
-    width: 1920px;
-    height: 135px;
-    left: 0px;
-    top: 82px;
-  
-    font-family: "Kanit";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-  }
-  
-  .SfitLogo {
-    position: absolute;
-    width: 142.2px;
-    height: 100px;
-    left: 165px;
-    top: 18px;
-    background: url(SfitLogo.png);
-  }
-  
-  .main {
-    /* หน้าหลัก */
-    position: absolute;
-    width: 70px;
-    height: 30px;
-    left: 827px;
-    top: 53px;
-    /* identical to box height */
-  
-    color: #078eba;
-  }
-  
-  .info {
-    /* เกี่ยวกับเรา */
-    position: absolute;
-    width: 90px;
-    height: 30px;
-    left: 937px;
-    top: 53px;
-  
-    /* black-333 */
-  
-    color: #333333;
-  }
-  
-  .packgage {
-    /* Auto layout */
-  
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-  
-    position: absolute;
-    width: 168px;
-    height: 30px;
-    left: 1249px;
-    top: 53px;
-  }
-  
-  .know {
-    position: absolute;
-    width: 89px;
-    height: 30px;
-    left: 1457px;
-    top: 53px;
-  }
-  
-  .call {
-    position: absolute;
-    width: 89px;
-    height: 30px;
-    left: 1586px;
-    top: 53px;
-  }
-  
-  .service {
-    position: absolute;
-    width: 89px;
-    height: 30px;
-    left: 1067px;
-    top: 53px;
-  }
-  
-  .L {
-    position: absolute;
-    width: 89px;
-    height: 30px;
-    left: 1694px;
-    top: 53px;
-  
-    color: #078eba;
-  }
-  
-  .PhoneLogo {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 165px;
-    top: 21px;
-  }
-  
-  .Phone {
-    /* PHONE : +66 (088) 766 8888 */
-  
-    position: absolute;
-    width: 252px;
-    height: 30px;
-    left: 219px;
-    top: 26px;
-  
-    font-family: "Kanit";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height */
-  
-    color: #ffffff;
-  }
-  
-  .Platform {
-    position: absolute;
-    width: 204px;
-    height: 48px;
-    left: 1551px;
-    top: 17px;
+  position: absolute;
+  width: 1920px;
+  height: 82px;
+  left: 0px;
+  top: 0px;
 
-    background: url(platform.png);
-  }
-  
-  header {
-    position: absolute;
-    width: 1920px;
-    height: 217px;
-    left: 0px;
-    top: 0px;
-  }
+  /* Main */
 
-  .Banner {
-    position: absolute;
-    width: 1920px;
-    height: 622px;
-    left: 0px;
-    top: 218px;
-    
-    background: url(banner.jpg);
-  }
+  background: #078eba;
+}
 
-  .rec{
-    position: absolute;
-    width: 568px;
-    height: 568px;
-    left: 380px;
-    top: 938px;
+.Menu {
+  position: absolute;
+  width: 1920px;
+  height: 135px;
+  left: 0px;
+  top: 82px;
 
-    background: url(Rectangle\ 91.jpg);
-    border-radius: 30px;
-  }
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 
-  .recc{
+.SfitLogo {
+  position: absolute;
+  width: 142.2px;
+  height: 100px;
+  left: 165px;
+  top: 18px;
+  background: url(SfitLogo.png);
+}
+
+.main {
+  /* หน้าหลัก */
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  left: 827px;
+  top: 53px;
+  /* identical to box height */
+
+  color: #078eba;
+}
+
+.info {
+  /* เกี่ยวกับเรา */
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 937px;
+  top: 53px;
+
+  /* black-333 */
+
+  color: #333333;
+}
+
+.packgage {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 168px;
+  height: 30px;
+  left: 1249px;
+  top: 53px;
+}
+
+.know {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1457px;
+  top: 53px;
+}
+
+.call {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1586px;
+  top: 53px;
+}
+
+.service {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1067px;
+  top: 53px;
+}
+
+.L {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  left: 1694px;
+  top: 53px;
+
+  color: #078eba;
+
+  background-color: white;
+}
+
+.PhoneLogo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 165px;
+  top: 21px;
+}
+
+.Phone {
+  /* PHONE : +66 (088) 766 8888 */
+
+  position: absolute;
+  width: 252px;
+  height: 30px;
+  left: 219px;
+  top: 26px;
+
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.Platform {
+  position: absolute;
+  width: 204px;
+  height: 48px;
+  left: 1551px;
+  top: 17px;
+
+  background: url(platform.png);
+}
+
+header {
+  position: absolute;
+  width: 1920px;
+  height: 217px;
+  left: 0px;
+  top: 0px;
+}
+
+.Banner {
+  position: absolute;
+  width: 1920px;
+  height: 622px;
+  left: 0px;
+  top: 218px;
+
+  background: url(banner.jpg);
+}
+
+.rec {
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  left: 380px;
+  top: 938px;
+
+  background: url(Rectangle\ 91.jpg);
+  border-radius: 30px;
+}
+
+.recc {
   box-sizing: border-box;
 
   position: absolute;
@@ -185,10 +187,10 @@
   background: url(Rectangle\ 92.png);
   border: 12px solid #FFFFFF;
   border-radius: 30px;
-  }
+}
 
-  .comesleepgowalk{
-    /* Rectangle 65 */
+.comesleepgowalk {
+  /* Rectangle 65 */
 
 
   position: absolute;
@@ -198,12 +200,12 @@
   top: 1687px;
 
   background: #52B0CF;
-  }
-  
-  body {
-    position: relative;
-    width: 1920px;
-    height: 7532px;
-  
-    background: #ffffff;
-  }
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 7532px;
+
+  background: #ffffff;
+}
