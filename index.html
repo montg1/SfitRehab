@@ -2,64 +2,168 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Header Navbar with Logo, Text, and Social Platform Logos</title>
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <header>
+    <nav class="navbar navbar-expand-lg navbar-light BannerTop" style="background-color: 
+      #078EBA;">
+      <div class="container">
+        <!-- Logo and Text -->
+        <a class="navbar-brand" href="#">
+          <img src="mail.png" alt="Logo" height="20" width="25">
+          Email: s.fitrehab@gmail.com
+        </a>
 
-    <div class="BannerTop">
-      <svg class="PhoneLogo" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_4051_335)">
-          <path
-            d="M11.0333 17.9833C13.4333 22.7 17.3 26.55 22.0167 28.9667L25.6833 25.3C26.1333 24.85 26.8 24.7 27.3833 24.9C29.25 25.5167 31.2667 25.85 33.3333 25.85C34.25 25.85 35 26.6 35 27.5167V33.3333C35 34.25 34.25 35 33.3333 35C17.6833 35 5 22.3167 5 6.66667C5 5.75 5.75 5 6.66667 5H12.5C13.4167 5 14.1667 5.75 14.1667 6.66667C14.1667 8.75 14.5 10.75 15.1167 12.6167C15.3 13.2 15.1667 13.85 14.7 14.3167L11.0333 17.9833Z"
-            fill="white" />
-        </g>
-        <defs>
-          <clipPath id="clip0_4051_335">
-            <rect width="40" height="40" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
+        <!-- Navbar toggler button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="Phone">PHONE:+66 (088) 766 8888</div>
-
-      <svg class="Platform" width="204" height="48" viewBox="0 0 204 48" fill="none"
-        xmlns="http://www.w3.org/2000/svg"></svg>
-
-      <div class="Menu">
-        <svg class="SfitLogo" width="143" height="100" viewBox="0 0 143 100" fill="none"
-          xmlns="http://www.w3.org/2000/svg"></svg>
-
-        <div class="main">หน้าหลัก</div>
-        <div class="info">เกี่ยวกับเรา</div>
-        <div class="service">บริการของเรา</div>
-        <div class="packgage">แบคเกจและโปรโมชั่น</div>
-        <div class="know">คลังความรู้้</div>
-        <div class="call">ติดต่อ</div>
-        <div class="dropdown">
-          <button class="btn  dropdown-toggle L" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            TH
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- Social Platform Logos -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="facebook.png" alt="Social Logo 1" height="30"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="line.png" alt="Social Logo 2" height="30"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="whatapp.png" alt="Social Logo 3" height="30"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="youtupe.png" alt="Social Logo 4" height="30"></a>
+            </li>
+            <!-- Add more social logos as needed -->
           </ul>
         </div>
-
       </div>
+    </nav>
+
+    <!--Nav bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position Menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="LOGO-S-FIT-REHAB.png
+        " alt="Logo" height="100" width="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #078EBA;" aria-current="page" href="#">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">เกี่ยวกับเรา</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                บริการของเรา
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">เสียงจากผู้ใช้บริการจริง
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">คลังความรู้</a>
+            </li>
+            <li class="nav-item dropdown Language">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                style="color: #078EBA;">
+                TH
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
-  <div class="Banner"></div>
+
+
+
+  <!-- Your content goes here -->
+
+  <div id="carouselExampleIndicators" class="carousel slide Banner">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="banner.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="banner.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="banner.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
   <div class="rec"></div>
   <div class="recc"></div>
 
-  <footer class="comesleepgowalk"></footer>
+  <div class="about">
+    <img src="plus.png" width="30" height="30" class="img-thumbnail">เกี่ยวกับเรา
+    <p class="lead">
+      รู้จัก S Fit Rehab
+      คลินิกรักษาความพิการ
+    </p>
+    <p>ทีมผู้ช่วยคนสำคัญที่จะเป็น เสมือนคนรู้ใจในการดูแลสุขภาพ
+      เริ่มตั้งแต่การตรวจประเมินโครงสร้างร่างกาย เพื่อหาสาเหตุที่แท้จริงของอาการ
+      โดยนักกายภาพบำบัดวิชาชีพที่มากประสบการณ์</p>
+    <button type="button" class="btn" style="background: #078EBA;
+    border-radius: 60px; color: #FFFFFF;">เพิ่มเติม +</button>
+
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
